@@ -8,6 +8,7 @@ dependencies:
   - blas=1.0
   - ca-certificates=2021.5.25
   - certifi=2021.5.30
+  - cython=0.29.23
   - decorator=5.0.9
   - gmp=6.2.1
   - gmpy2=2.0.8
@@ -41,3 +42,6 @@ dependencies:
   - wheel=0.36.2
   - xz=5.2.5
   - zlib=1.2.11
+  - pip:
+    - simplepso==2.1.1
+    - git+https://github.com/lolab-vu/earm.git
